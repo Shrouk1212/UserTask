@@ -1,4 +1,4 @@
-package UserControllerIntegrationo;
+package UserIntegration.Controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import UserIntegration.Controller.UserControllerIntegration;
 import UserIntegration.DTO.UserDTO;
 
 @RunWith(SpringRunner.class)

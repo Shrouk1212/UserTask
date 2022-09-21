@@ -1,10 +1,10 @@
-package UserControllerIntegrationo;
+package UserIntegration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserControllerIntegrationoApplicationTests {
+class UserIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
