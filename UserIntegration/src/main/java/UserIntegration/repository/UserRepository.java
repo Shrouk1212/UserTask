@@ -1,9 +1,9 @@
-package UserControllerIntegrationo.repository;
+package UserIntegration.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import UserControllerIntegrationo.entity.UserEntity;
+import UserIntegration.entity.UserEntity;
 
 
 @Repository

@@ -1,4 +1,4 @@
-package UserControllerIntegrationo.entity;
+package UserIntegration.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

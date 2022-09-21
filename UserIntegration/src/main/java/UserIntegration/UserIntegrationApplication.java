@@ -1,4 +1,4 @@
-package UserControllerIntegrationo;
+package UserIntegration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,12 +8,12 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "UserControllerIntegrationo")
+@ComponentScan(basePackages = "UserIntegration")
 @SpringBootApplication
-public class UserControllerIntegrationoApplication {
+public class UserIntegrationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserControllerIntegrationoApplication.class, args);
+		SpringApplication.run(UserIntegrationApplication.class, args);
 	}
 
 }

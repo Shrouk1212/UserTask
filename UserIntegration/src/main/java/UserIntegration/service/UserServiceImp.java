@@ -1,12 +1,12 @@
-package UserControllerIntegrationo.service;
+package UserIntegration.service;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import UserControllerIntegrationo.DTO.UserDTO;
-import UserControllerIntegrationo.entity.UserEntity;
-import UserControllerIntegrationo.repository.UserRepository;
+import UserIntegration.DTO.UserDTO;
+import UserIntegration.entity.UserEntity;
+import UserIntegration.repository.UserRepository;
 
 @Service
 public class UserServiceImp implements UserService {

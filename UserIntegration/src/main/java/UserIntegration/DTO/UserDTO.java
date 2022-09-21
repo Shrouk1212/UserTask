@@ -1,4 +1,4 @@
-package UserControllerIntegrationo.DTO;
+package UserIntegration.DTO;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

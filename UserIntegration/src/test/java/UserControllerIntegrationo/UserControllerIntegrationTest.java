@@ -9,15 +9,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import UserControllerIntegrationo.Controller.UserController;
-import UserControllerIntegrationo.DTO.UserDTO;
+import UserIntegration.Controller.UserControllerIntegration;
+import UserIntegration.DTO.UserDTO;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class UserControllerIntegrationTest {
 
 	@Autowired
-	private UserController userController;
+	private UserControllerIntegration userController;
 	
 	@Test
 	public  final void saveUser() {
